@@ -4,7 +4,7 @@ return [
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
     'allowed_methods'   => ['*'],
     'allowed_origins'   => [
-        'https://geoserver-main-vzwrph.laravel.cloud',
+        'https://geoserver-main-vzwrph.laravel.cloud/*',
     ],
     'allowed_headers'   => ['*'],
     'exposed_headers'   => [],
